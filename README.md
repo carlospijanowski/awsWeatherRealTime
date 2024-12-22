@@ -50,4 +50,16 @@ veja na pasta resources
     - lembre de desativar pra nao ficar pingando na api desnecessariamente
     
     
+----------------------------------------------------------
+# SEGUNDA PARTE
 
+### 1 - criar o BUCKET S3
+    - ?????
+
+### 2 - criar a role para o produtora com o nome [consumer_batch_iam]
+    -   coloque o usecase lambda, pois é ele que vai usar
+    -   coloque as permissoes: 
+        - AWSLambdaBasicExecutionRole
+        - AmazonKinesisFullAccess
+        - AmazonS3FullAccess
+### 3 - criar a lambda consumidora
